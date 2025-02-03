@@ -28,5 +28,6 @@
    ./gradlew bootRun
 5. При необходимости поменяйте пароль двери в файле Bot.java:
    телефона: private final String hashedPassword = passwordEncoder.encode("ваш_пароль");
+   
    двери: private final String doorHashedPassword = passwordEncoder.encode("ваш_пароль");
    
